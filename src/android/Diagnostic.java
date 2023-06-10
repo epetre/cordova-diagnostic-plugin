@@ -112,8 +112,7 @@ public class Diagnostic extends CordovaPlugin{
         Diagnostic.addBiDirMapEntry(_permissionsMap, "WRITE_CALENDAR", "android.permission.WRITE_CALENDAR");
         Diagnostic.addBiDirMapEntry(_permissionsMap, "WRITE_CALL_LOG", "android.permission.WRITE_CALL_LOG");
         Diagnostic.addBiDirMapEntry(_permissionsMap, "WRITE_CONTACTS", "android.permission.WRITE_CONTACTS");
-        Diagnostic.addBiDirMapEntry(_permissionsMap, "WRITE_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE");
-
+             
         // API 26+
         Diagnostic.addBiDirMapEntry(_permissionsMap, "ANSWER_PHONE_CALLS", "android.permission.ANSWER_PHONE_CALLS");
         Diagnostic.addBiDirMapEntry(_permissionsMap, "READ_PHONE_NUMBERS", "android.permission.READ_PHONE_NUMBERS");
